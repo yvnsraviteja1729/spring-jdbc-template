@@ -10,6 +10,8 @@ import java.util.ArrayList;
 
 /**
  * Created by jt on 8/23/21.
+ * Use RowMapper for straightforward row-to-object mapping
+ * Ex;- You have a User entity, and you want to retrieve a list of users from the database.
  */
 public class AuthorMapper implements RowMapper<Author> {
     @Override

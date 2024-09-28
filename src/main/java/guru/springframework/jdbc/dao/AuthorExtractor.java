@@ -9,6 +9,8 @@ import java.sql.SQLException;
 
 /**
  * Created by jt on 8/27/21.
+ * Use ResultSetExtractor for more complex scenarios where you need to work with the entire result set.
+ * EX;- You want to extract a list of users from the database and also apply some additional filtering based on the results.
  */
 public class AuthorExtractor implements ResultSetExtractor<Author> {
     @Override
